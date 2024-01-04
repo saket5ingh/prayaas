@@ -3,7 +3,7 @@ import "./Contribute.css"; // Assuming you have a CSS file for styling
 import QnaCard from "./QnaCard";
 import supportimg from "../../assets/Support.svg";
 import UPIimg from "../../assets/UPI.svg";
-import QRCODE from "../../assets/QR.svg";
+import QRCODE from "../../assets/QR.jpeg";
 
 function Contribute() {
   return (

@@ -34,7 +34,7 @@ export default function Navbar() {
         <li className="space1">
           <a
             className="register"
-            href="https://www.linkedin.com/in/ayush--kumar--/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfq2rZn5pIDkMkLVEIx6kKRBnvHjXdIWONEPuLU4E1uSsUXTQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
             previewlistener="true"
@@ -74,7 +74,7 @@ export default function Navbar() {
         <li className="space1">
           <a
             className="register"
-            href="https://www.linkedin.com/in/ayush--kumar--/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfq2rZn5pIDkMkLVEIx6kKRBnvHjXdIWONEPuLU4E1uSsUXTQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
             previewlistener="true"
