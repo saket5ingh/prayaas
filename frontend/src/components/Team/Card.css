@@ -1,0 +1,84 @@
+
+/* --------------team.css--------------------------------- */
+
+.team-cont {
+    position: relative;
+    /* background-image: url("../../assets/team/team_bg.jpeg"); */
+    /* background-size: cover;
+   background-repeat: no-repeat; */
+    /* opacity: 90%; */
+}
+
+.team-pic {
+    height: auto;
+    width: 100%;
+
+}
+
+.bg {
+    height: auto;
+
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.team-title {
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+
+}
+
+.card-con {
+
+    padding: 0.5rem;
+    width: 100%;
+
+}
+
+.title {
+    position: absolute;
+    margin-left: 0.7rem;
+    font-size: 5rem;
+    width: 90vw;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+    ;
+    text-shadow: 1px 5px 5px rgb(0, 0, 0);
+}
+
+.team-card-cont {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    height: 15rem;
+    width: auto;
+}
+
+.pos-title {
+    padding-left: 1.5rem;
+}
+
+.rounded-circle {
+    margin: 2rem;
+    height: 12rem;
+    width: 12rem;
+    border-style: solid;
+    border-color: rgb(255, 171, 14);
+
+    border-width: 5px;
+}
+
+.team-name-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.team-name-cont p {
+    text-align: start;
+
+}

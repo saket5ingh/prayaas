@@ -1,0 +1,118 @@
+
+.footer{
+  height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 102, 0, 0.8);
+    padding: 2rem 0;
+   
+    font-size: 0.9rem;
+   
+}
+
+.suggest-button{
+   
+        background-color:rgb(255, 255, 255);
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        margin-left: 0;
+        transition-duration: 0.4s;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+      
+}
+
+  
+.suggest-button:hover {
+    background-color: rgb(255, 171, 14); 
+    color: white;
+  }
+.suggest
+ion-box{
+   color: white;
+}
+
+footer a{
+    color: grey;
+}
+
+.footer__logo{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks{
+    display: flex;
+    align-items: start;
+    padding: auto;
+    font-size: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;   
+}
+
+.permalinks a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+   
+}
+
+.social-handles{
+    margin: auto;
+    margin-top: 5rem;
+}
+.footer__socials{
+    display: flex;
+     flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  
+    
+}
+
+.footer__socials a{
+    background: grey;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a:hover{
+    background: transparent;
+    color: grey;
+    border-color: black;
+}
+
+.footer__copyright{
+    /* margin-bottom: 4rem; */
+    color: grey;
+}
+
+/* =========== Media Queries (Small devices) =========*/
+@media screen and (max-width: 960px){
+
+}
+@media screen and (max-width: 900px){
+    .footer{
+       flex-direction: column;
+         align-items: center;
+      }
+      
+   
+}
+
+  

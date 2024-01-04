@@ -1,0 +1,36 @@
+
+.swiper {
+  width: 100%;
+ 
+}
+
+.swiper-slide {
+
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+ 
+}
+.element{
+  display: flex;
+  align-items: center;
+  
+ 
+  height:65vh;
+  width:30vw;
+  
+}
+
+
+.swiper-slide img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.swiper-cont {
+ 
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}

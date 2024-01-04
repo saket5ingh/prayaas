@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.navbar2 {
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    /* grid-template-columns: 4em 2fr 0.7fr 2.5fr 2.5em ; */
+    /* grid-template-columns: 4rem 2fr 0.7fr 2fr 6rem; */
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px -10px;
+    transition: all 400ms ease;
+}
+
+.navbar2.trans {
+    transition: all 400ms ease;
+    background-color: transparent;
+}
+
+.active {
+    color: rgb(255, 102, 0) !important;
+    font-size: 1.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom-style: solid;
+}
+
+.active1 {
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom-style: none !important;
+}
+
+.nav2-menu li {
+    position: relative;
+}
+
+.nav2-menu a {
+    font-family: 'Gill sans', sans-serif;
+    text-decoration-line: none;
+    color: orange;
+     font-weight: 700 ;
+    /* margin: 0 1rem; */
+}
+
+.space{
+    margin: 0 4rem;
+    background: linear-gradient(90.21deg,rgba(170,54,124,.5) -5.91%,rgba(74,47,189,.5) 111.58%);
+    border:  solid white;
+    border-radius: 0.3rem;
+}
+
+.register
+{
+    color: white !important;
+    margin: 1rem;
+}
+
+.space1 {
+    background: linear-gradient(90.21deg, #FF6600 -5.91%, #FCC7AF 111.58%);
+    border:  solid white;
+    border-radius: 0.3rem;
+}
+
+.linemove:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 0.12rem;
+    background-color: rgb(255, 102, 0);
+    transition: all 0.3s linear;
+}
+
+.mobmenu {
+    display: none;
+}
+
+.linemove:hover:before {
+    width: 100%;    
+}
+
+.logo {
+    margin-left: -8rem;
+    grid-column: 2/3;
+    height: 5rem;
+    background-image: url("../../assets/Prayaa_\ logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav2-menu {
+    display: flex;
+    height: inherit;
+    grid-column: 4/5;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Arial;
+    font-style: none;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav2-media-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    height: inherit;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+.button-5 {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-5:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.button-5:active {
+  transform: translateY(0px);
+}
+
+
+@media screen and (max-width: 1030px) {
+    .navbar2{
+        grid-template-columns: 10rem 1fr 0.7fr 16.5fr 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar2{
+        grid-template-columns: 10rem 2fr 1fr 12rem !important;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .navbar2{
+        grid-template-columns: 10rem 1fr 0.7fr 16.5fr 1.5rem;
+    }
+}
+

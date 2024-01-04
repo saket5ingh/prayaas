@@ -1,0 +1,175 @@
+.Contribute-Container {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.Contribute-Container>div {
+    width: 35em;
+    padding: 2rem;
+    align-items: center;
+    text-align: left;
+    font-family: "Roboto",sans-serif;
+}
+
+.Support-Section{
+    padding-top: 3rem;
+}
+.Support-Section>img{
+    padding-bottom: 5rem;
+}
+
+.Support-Section>h2{
+    font-weight: bold;
+    text-align: left;
+}
+
+.Support-Section>p{
+    text-align: left;
+}
+
+.Payment-Section{
+    width: 25em  !important;
+    border: 1px solid rgba(0,0,0,0.12);
+}
+
+.UPIIMG>img{
+    height: 32px;
+
+}
+
+.QR-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.INFO{
+    padding-top: 2rem;
+    width: 80%;
+}
+
+.INFO>h6{
+    font-weight: bold;
+}
+
+.INFO>h6, p{
+    text-align: left;
+}
+
+.QR-Code{
+    padding-top: 2rem;
+}
+
+.QR-Code>img{
+    width: 73%;
+}
+
+
+@media screen and (max-width: 960px) {
+    .Contribute-Container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin:0em;
+    padding:0em
+}
+.contribute-cont{
+    height: 100vh;
+  
+   background-image: url("https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcml0eXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.btn{
+    position: absolute;
+    top: 80%
+}
+
+.contribute-text{
+    color: white;
+    position: absolute;
+    top: 12em;
+    left: 7%;
+    width: 30em;
+    height:20em;
+    text-align: start;
+}
+.title-contribute{
+ 
+    font-size: 4em;
+}  
+
+.para-contribute{
+    font-size: 1.5em;
+}
+.form{
+    margin:1em;
+    margin-left: 0em;
+}
+ 
+.amount{
+    font-size: 1.2em;
+}
+
+.btn{
+  
+        display: block;
+        width: 100%;
+        
+        border: none;
+        background-color:  rgb(245, 179, 48);
+        padding: 8px 25px;
+       
+        cursor: pointer;
+        text-align: center;
+        font-size: 1.7em;
+      
+}
+
+.btn:hover{
+    background-color: rgb(255,102,0);
+}
+.qna-card{
+    padding: 2em;
+
+}
+
+.qna-card h2{
+    margin-left: 0.7em;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+font-size: 3em;
+text-align: start;
+}
+
+.qna-card p{
+    font-family: '';
+    margin-left: 2em;
+    text-align: start;
+    font-size: 20px;
+
+} */
